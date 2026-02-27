@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(230, 247, 247);
+}
+
+h1{
+    background-color: rgb(231, 215, 142);
+    font-size: 55px;
+    color: rgb(207, 118, 106);
+    letter-spacing: 12px;
+    word-spacing: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    word-spacing: 8px;
+    text-decoration: overline;
+}
+
+h2{
+    /* border: 2px black solid; */
+    border-top: 5px rgb(89, 160, 182) solid;
+    border-right: 5px rgb(24, 163, 228) double;
+    border-bottom: 5px rgb(61, 144, 192) groove;
+    border-left: 5px rgb(96, 180, 219) dotted;
+
+    /* Padding */
+    /* padding: 50px; */
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+    /* Margin */
+    /* margin: 70px; */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(218, 116, 91);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+a:hover{
+    background-color: rgb(162, 196, 104);
+    text-decoration: underline;
+}
